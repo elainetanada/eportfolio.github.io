@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Fuggles' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body style="background-color:#212529; ">
+    <div class="container mx-auto px-12 p-4 pt-6 boxes">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <h1 class="logo_name">Elaine Tañada</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Resume.html" class="nav-link">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="mt-5">
+            <div class="row">
+                <div class="col-lg-6 mt-5" style="color: white;">
+                    <h2>Hello 👋🏼! I am ET</h2>
+                    <div>
+                        <h1 class="position">Full-stack <br> Developer</h1>
+                    </div>
+                    <div class=" ">
+                        <p class="my-3">As a passionate full-stack developer, I am driven by the art of crafting elegant and functional applications that seamlessly combine front-end and back-end technologies. With a relentless pursuit of innovation and a love for problem-solving, consistently delivers robust solutions that elevate user experiences and push the boundaries of web development.</p>
+                    </div>
+                    <br>
+                    <a href="Resume.html" class="button-type my-3 w-25 px-5 py-2">VIEW RESUME</a>
+                    <div class="d-flex gap-5 py-5">
+                        <div>
+                            <a href=""><i class="bi bi-linkedin icons" style="font-size: 40px;"></i></a>
+                        </div>
+                        <div>
+                            <a href=""><i class="bi bi-github icons" style="font-size: 40px;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center" style="color: white;">
+                    <div class="mt-5">
+                        <img src="images/me.jpg" alt="" class="me img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12" style="color: white;">
+                <h1 class="text-center">I work with....</h1>
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="d-flex justify-content-center py-5 px-5 carousel-item" data-bs-interval="5000">
+                            <div class="tech">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAilBMVEXxZSn////wXRX4vKvwVADwVwDxYyXxYB/xYiLwWgrxXhrwWxD1lHL2p43xYSH+8e372s76y7z3sJjyckD85N74uaT5xLP+9fL/+vj1mHfzeUn0hVz2oYL1mnz96+Tzf1PzgFbybjf2pov0imP6zsHycTr859/4tZ/vSQD71cj0jGfxai783tXvRAAkdIO6AAAJaElEQVR4nO2d/3+aPBDHkZogRO2sLVJdtV1bu257/v9/7+GbeJLDQu6ohlc+P2z0NUbz5iC5HJeLNxq6vEs3oHc5QvuFEK7uF/GNjYoX+xaESfwaCuXbKSWiTZycJUxmSs09mzVX/ixpJoxVdOkW0iUjFTcRPgp56eaxSIopSpjs/Es3jU3+DiNcD+AJrRStdcLpkABTK07rhLG4dJuYJeJTwkQNo5MBEskJ4WxYz2im6BckTIbTjR6lEkAYq0s3pwf5N4BwM7l0c3rQfHMkHORDmhoxqQjvhzZUFBL7inAxxNcw7WoWFWE80Kc0rghvBkp44whtlyO0X47QfjlC++UI7ZcjtF+O0H45QvvlCO2XI7RfjrCjxrmC7DAojvNfMq5Jel6YHxxyBlR1ssgPGD+C8RKO828Eo8cUMXgsjseHiCXUWob/8oPEzxHF2+Hk8nvfBx9iL4TTjHB6JLxBCH8UR3GY/rfgz6givM0P7oZDOHqee9JfDZlwK7yweortIYykjFoSjj7EMe3FGsKfy/V6+bMijD5uM+U/Jtv0aLUEhKOXrX2EUNkIEAkhxsV35vvf6XE6RgDCBJ5sKWEmuSwIy8+wgPDkZEfYXRcm/CzPWgyWMP7I/9q/DpZwMc4H+101tJSEs7EoRG7St4wWuZoIp9WfkHB1W2hFR/yOET9XA6ES6UEQ1Qm1R8Bc3+G15WoilO+jX1EwZEIv+hl4wyb0Tk62hLA2A85VEm4PhMUM+K3IwzqeLGpLQa6NsCGKkUsWYYvDj0UU45BoFtSiGJXoTXKRKPvlCO2XI7RfjrCd6lH7HnRZQmRayC5jRBbCujPZg26NJ4o8hNjqaV6ZL5VgIcQDZ6z6EV6UUGmfz9hlviaLhdB/6J3wwbxxHITRXe+E5ksjWQgPE9ge9RhclHCy6Z3QfOUgC6Fcn28eg9bGK5R5CP/2Tvj3soTlKsYeRVj9yUMoVucbSBYhus9E2Lfbtr80Yfh5voFkfRo7bUyEatEzIWEFL1NP07fbZu60MRFGs54JCfUseAiDp3qTiDGL+uWejJ02JkLdbdtR6jPM/9QvRyj3wEMo3xlvOvbQv5uXlWGKJkb1JpGSKfSumXA1JkJVd9tIdVLEfe1qCeFqTIRhPdpmHldJpepO4C3hakyEmtu2JaSJyJf6Q0pw2thsWI+2UUrBzF/rhJQngus91PqGF/PeT+9KKWVXmAj1NGDCgKjfLoLTxjZaaLfdPHTkhfWulFSEjIlQj7YRBsSxFjEg3C4uQr1zgPV8Jt0qrE7q1xq9EsqpMhHq0TbQ/U2m3erk6pNN80gbH6EWbQMDou5Id5V5pI3vK7fSWgU+afpUQoqDxEWoR9vk8b5rfmZHkfJo2Qi1aNvzcUCkBjkoThsbof6RFPTwek/bTSQ3nu091DpAMCBKvf/vJFKtPC5C/UGEM0Tii0hx2tgIdbcNPlq629pJpMqxXIR6tA3OEOWudY3+h386ISnow0WoR9tW8MbL1j7bGAmfkwqrchGWadxQZo5IiNiQEGljJJRau8xmiOFWuxB0HrqLLTcxYpry6NcZJaRlXmyEWrTNbIYokc1EKJE2RkLdbTOq+IolPdDK//LZUPtIauRrBdP6ZUifRz1GQt1tMwqZYt/paAWO2QgRt8WEEJuGcDSMoy/Vb77JgKjedEJauX82QiS37dlgQMQGfEqkjZEQmQOatAxLqKZE2hgJkW5+9rt7Hn6oA5IibZyEhJ3NwBI+LEPOuw5CTxgDgmFlskP+nbaem5HQeEkCcA3myIBvvhCBm9A4tw24d4dNU6CIezbwEZovSQAuOhbuIEXaOAnNc9vAqIJdhLgrBR+hedgXeAbYgE+KtHESmue2gQ/i2AyfuEcTH6EebWspmCwTIunUpEgbJyGyJOEOODX/NSZKg+FQBsi/E7cw4iNEom2wF8QmDdpZ6LKGJW2rNEZC3eFKwEiGjXSFQPgfm+GTPo96rOuAA/0dAre/edUJGA6x25DQXkNOQj3alhc5OahxxQLoSbARhxZpYyVE3DY4lDW+iCByjJ1D3WiL04b6kgTY1TS+iHMwHCIDPi3SxkqIeFwr0Do947BQAs7B5ifUrcQYCTGvGfaD9eI6peB7piXisjWLhRBz22CoRr486J3N6gH4bKiZqRtrco4WyErSE69Z+mp6OsX6MVU+sDI6w6dF2lgJsYyL+twuEEdDpuYTp61Hk6dokTZWQsRtO+lqyrNKQ9bMlwudnhCdNlZCzG3G2heI5d1SIA8fOsUMrocQLQAyRd8iGaHNRsME1HJfnITYaNZpgo4N+MRIGzMhEm3rFEYSyAyflNOWiZMQi7Ylv/EHEpGM/kMeUmKkjZcQfY22s0nYZpKenjVDTEjf/5WTsCnattiJLwwpI7FrCEYSI228hM0FQM4bssl8ucgVhTkJzxYAaTLkGfPlojptrIRfFADZzgLNkJMwaDZfLvJm4ZyEXxcAWTxDQ6bme/7yUwDt86jHTNiiAMh+5qvCKhPlz1p8riJG2phr7iE5aYhyQ7YxXyZaThs7YdsCIPtZ1MZ8megFvXkJiesqsJtxXYQ9FAChRtqYCXsoAEJ22ngJeygAQnbamPtS/gIg1EgbM6HxR9JmET+PchNS1zchokbamAn1AiBkkRYi8BMi6yypIg8WzITy71PMV/ZrHz+RvVL2WtAy8IXc3H1S67etPu82UvjUWGkPhJnkJArH78bGTO7jx5dxGE0Y6DL1Vc87M+akszFT0z1PeExXqc+K5ZkxxbKtMffx4zuj6Sr1XpM9NWYYfGHM7K2LQl7TVfqWqvPnjHkfPy1FD6ar9H119TNjqhNjZqZTfZmu0jfvHFAZc1+arv9feYG9EbJudszcYZ6R2/3BfjlC++UI7ZcjtF+O0H45QvvlCO2XI7RfjtB+OUL75QjtFyA0qlx1/fLjipCeunKVKpJ8ckLqUsYrVZGKlhNSiv1fsYod04rqORtyZscVal4kLheEpH1FrlXlHqkFYaItJrNfstzWr6zxRE8iuzodUu1KwkQNzYjysLL4UKcrHtqAIQ47FVeVyKbDGjH8qs7GsdbaekivYnRcAAKqye2GY0V/nWCEo6eBvItSwFIwJxUB47D1osjrlfSDkyoipzUPk5mv7Hbg5sqfna7fqVd1TOJXXyjVaQOca5EKRbSJ6+uTkLqVyf6tdS38q1L8iSWXESpzWiJHaL+GT/g/B8yZAwhhJBQAAAAASUVORK5CYII=" class="img-fluid log" alt="...">
+                            </div>
+                            <div class="tech">
+                                <img src="https://img.freepik.com/free-icon/file-formats_318-337962.jpg" class="img-fluid log" alt="...">
+                            </div>
+                            <div class="tech">
+                                <img src="https://img.freepik.com/premium-vector/bootstrap-icon-b-letter-logo_781017-7.jpg" class="img-fluid log" alt="...">
+                            </div>
+                            <div class="tech">
+                                <img src="https://2ality.com/2011/10/logo-js/js.jpg" class="img-fluid log" alt="...">
+                            </div>
+                        </div>
+                        <div class="carousel-item d-flex justify-content-center py-5 px-5" data-bs-interval="5000">
+                            <div class="tech">
+                                <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-svg-vector.svg" class="img-fluid log" alt="...">
+                            </div>
+                            <div class="tech">
+                                <img src="https://brandslogo.net/wp-content/uploads/2012/03/mysql-vector1.jpg" class="img-fluid log" alt="...">
+                            </div>
+                            <div class="tech">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAwFBMVEVGVIn////MzMxXZJTT09BRXpBZZpXp6ek4Q25GVYo4SIJEUojEx9ZFU4c2R4JCT4ElM2U/Toa9wdErOGcgL2LHydOjp7jQ0t2vtMg/THyJkbEwQn+YnK/39/k6RXHBxM/f4ejy8/dlcJsyPmuztsOWnbp2f6Tc3uUqOnKxtsrp6/FJUnkxQXmtscAvPnKkqcFvdpN8gpyCiqyMkadbZIdxeqIYKV8AGVhQWX9BS3SEiqSRlqxkbI03RXhzepZ6gaExD7PJAAAJCUlEQVR4nO2de3uaShDGvUQroAQ0itbgDS2Np8akSU6TNGm//7c6ixf2XVCkh0XO5Oz7R5+nus7Oj90ZdodLSuWPrlLRDuQuRUhfipC+FCF9KUL6UoT0pQjp6yChs5jVq9RUny2clITOTKsV7e6/Uk2bHWCME661TfM6NW281tanCQPAerVGUczvA4hRQkcLRrtEU0F0adGJGiWcsTZFO5pBbHxmyYRsCCkDBojRQYwQLmpFu5hVWm2RSPikGUW7mFGG9pRIWKUOyBCriYS1D0BYSySknWa20hIJi/ZOij48oZFISD8MFaEipCBFSF+KkL4UIX0pQvpShPSlCOlLEdKXIqQvRUhfipC+FCF9KUL6UoT0pQjpSxHSlyKkL0VIX4qQvhQhfSlC+lKE9KUI6asoQt3cSc/7KBZEqDednZpGzojFEBo1d9/FxMypj7CvYgi/hF209Zz6CPsqhNDmj+os7Jz62KsYQr0ddvH4MTONPgm7+JpTF6EKITRq030P/te8n8sphpA/9jj/lk8X0FkRhPbnsIeHvBNNMYT6TdhD7ommIEL+5Op7Pj2AiiA07Om+A/82lx6E3oog5A89jnNPNDIJbVM/INuOLa3t72EHD8NdI/tQO8GQedzgmQjtRVNQe6Ob9eenmi5ukfR+2MF83WdarxeL719mdY35Dwb7RwzOarqd3jN5hMayfESuv56ZYMo8+NIRpumk/2TuGWH/EWvnr6tmWt+kEUafKI7IqfM9xHCa0NCf7RraXxJalcvNWsozqTTCEw6Vy+v9RtDQkht+3iLai+Rm+3ZnI4TgOqL2LhpPHosvm9HRm6cMrlMhSiM8Glwxj+z4S2NETYI8YtiTE83YKKaZqNIIh0fzAtdsYw82hwntEhIN1zkJMbjG467jL6duzEVnM4hmmHSX1zv1eu0ptFszz214n8V8Y9CNG0xTApFFCGdxt2FZ1tXVlTV6frvvCXOtZgibw/nfnb2szlh0HOby9MfWYGf0fPe6wpOSm2IQZRFCopl4jZ08z+t0rsHeQhycn51GKM/izZqmkGgcSzC4AoPfTyPKIoRE07UaqCvwqKkLm8NHD9v54ec3Os7l8qojGuxyg/3T01TaGE7DH13rrdYl02AwGI3YcX/h9oLiKCQa2Fi0BkC4GWr+q3tbNHgnHrLzEBp1dGj7mRaodDnq8NGYDhlhSLLEGo32lR+jJ7tkQKJ5NsBg67LxF884/ul6siRCmHqRbbtW6vBk4zJCLSTpClsnGDSGhIlmIHSltV74sUhRMZdECHWJaXTb/s7HkBHCaPdwikF1asmQTJ5o/IhBSMZnJDR5EPmRCijs6MvLIZ5WfmEihGWow8bW5D+K7pKNOp+lztkI+dQrr6LBD12wsIHTyjOah8+ZBXy7U7QchyHaPBchTLG4Q5CExjqcVqYDNA+nG2YBRrp8F/ECv+udK5ceTzQRh2zYHPrC7IPz35uNI+r+FTUIK/fXc53xcTEdrZ7htorR85QpxBcstF02thDXy6hBE874Ufr8CLlDk+iFiCGffu4tBtFPPP7w+TJIVdPwv91oorGX0PT0VQ9Jcch/EqsP4ne3GkyxOyGV8nnOkDCuo6EmfPd+JkLs9DrikA5Rc/cOC2r3WCplSBjX95FQMyEiXi5TOCeDEEsqb+JvDGMafjXpGKUh3xwKJ3JIpQwJFhDiOUWseDlWCuekEGJJRVyAGEM44q+eVtLChOIIiQZqFix7QFy7kQUEhHX5LcUklUM4hNgXMp9hQiKdWAMNNofCygBrFix7GLBqEeLawIPZtVJMUklxCL1yhwzbrGK97NFr4XwWVgYQyWzVh3E919HgjA8uO1E20lw/lkGI5cHe9kKEaQ6Hte9NLKz02BAevUUBUsv8mxDX99xg9bNQz3vtDM5GCOly3L+5abebjrOMlI0cq9FiCYWHmzCdgZydJjFdrnYG/ajB+dUolXcyCFOUSsu+1wiOOF+hiysDWMM8YsI9ru5V4zLVTQ4SCA2oYBwFHHkjTQg3cWWg8wFiazY9BWCnMUp3F4cMwvrJ2m3X84I5iuHWExINP8lN3oVS6REFxalUfFIIcfNwWD+txnZKwZlc2BOBCZaMT5b93XtmsHU+wlPXZMYvnR2gcIvC8TWbmXxNxp03QoNnIkxINK7fe7a8vT+whHOFVAq56peNW8W4Qef6JajHpgaUQaiBQ8vJZLJk//i+44xXD28vnU5Q9W1t/TG0fm+nB2F1Z/fH4/lGvVHJqLrHDL4+vlhBeXjUSn+vWHZCrFL4P652spi2dI0GVANvwwsVYhi9b5oHYis7iOvxD7BndbydwT+5Fy47Ie50IvX3rTt4vEfhx4KT2iD8/FLYbz3EDY4GfzCAUghxp3Pvic6MBpclwR3+lUjIyVvCAuItbvDP+KQQwmJ4dMnVagV1+JRu4JyFmzqm3r81KJPQ5HlhIuN2WIzrroSbwjITYu12fivhdlhMNNcSbuzLTIiJ5k7GzaK4gHhOWwpLUGZCLJU2ZNzpB4lmeiVhTmQmHPJE48iYpHittS3DYFZCA/Y9aaqXpw3CTR33Mu6vzUwIJZU3GWGIJZGRjFmflRBKKtN0VYUTwps6pMz6rISQaOQ8OgGJZvyfILT73b0epNyVrrdDg7+kPKmQ/Wxh7eWl3XUn6xs3KMVeVkLYFUgJQ8GglAeGMhPyXcEf7dqOS7bBzLO0FUqGO4JBORbVs9z0pQjpSxHSlyKkL0VIX4qQvhQhfSlC+lKE9KUI6UsR0pcipC9FSF+KkL4UIX0pQvpShPSlCOlLEdKXIqQvRUhfipC+FCF9KUL6UoT0pQjpSxHS1/+dsGjvpCiRMO+/43MOaYmEVfrTFJ81P0D4O/e/5JO77N+JhLG3rdKTvkokrNSoT1OjVkkkvEjxjtf/tvTeRSLhp8oDbUT9tfIpkdCtVF5z/0Oh+cnQHyoVN5Gw7FcuVsFf5qEoW6+uLip+OZmwXGFa/a5q1AbS0Kq/V4HzUaAYoRu0uqCpwPXYy/JihGV305CoLuJvA4wTsoRKlfHi0wGaQ4RsHD9R1OG3OR4m/EhShPSlCOlLEdKXIqSvj0/4D/xMAtrpxHpmAAAAAElFTkSuQmCC" class="img-fluid log" alt="...">
+                            </div>
+                            <div class="tech">
+                                <img src="https://2.bp.blogspot.com/-BbNqt1tu3bM/XMMCkc0DXgI/AAAAAAAADt0/07Nln3EqT4EQkc0yWszChJbdYZKBlZ9gACLcBGAs/s1600/Runtime-logo-Node.jpg" class="img-fluid log" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer class="text-center pt-4 pt-md-3 border-top footer-bg">
+        <div class="footer-center text-left">
+            <h4 class="text-base mb-2 dark:text-gray-300">Contact me:</h4>
+            <div>
+                <p><b>Phone:</b> +639123456</p>
+                <p><b>Email:</b> +elainetanada1@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <div class="footer-icons">
+                <a href="#" class="icon"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="icon"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="icon"><i class="fa fa-linkedin"></i></a>
+                <a href="#" class="icon"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>

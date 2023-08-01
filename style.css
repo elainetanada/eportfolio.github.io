@@ -1,0 +1,174 @@
+
+*{
+    color: white;
+}
+
+.me {
+    width: 400px;
+    border-radius: 35px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: gray;
+}
+
+a:hover {
+    color: white;
+}
+.logo_name{
+    font-family: Fuggles;
+    font-size: 50px;
+    color: white;
+
+}
+
+.button-type {
+    border: 1px solid white;
+    padding-left: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+
+
+}
+
+.icons:hover {
+    color: rgb(57, 151, 163);
+}
+
+.position:hover {
+    color: rgb(57, 151, 163);
+}
+
+.button-type:hover {
+    background-color: rgb(57, 151, 163);
+    color: white;
+}
+
+.tech {
+    border-radius: 200px;
+    border: 2px solid rgb(57, 151, 163);
+    padding: 70px;
+}
+
+.log {
+    width: 50px;
+}
+
+#about {
+    text-align: center;
+    padding: 40px;
+}
+#about img {
+    width: 200px;
+    border-radius: 100%;
+}
+#about h1 {
+    margin: 25px;
+}
+  section {
+    padding-bottom: 40px;
+}
+.card .card-header {
+    cursor: pointer;
+    color: antiquewhite;
+ }
+
+
+  
+.footer-distributed{
+    background: rgba(55,65,81,1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+}
+  
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+  
+  
+.footer-distributed .footer-left{
+    width: 40%;
+}
+  
+  
+.footer-distributed .footer-center{
+    width: 35%;
+}
+  
+
+  
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    font-weight:400;
+    vertical-align: middle;
+    margin:0;
+ }
+
+.footer-distributed .footer-icons{
+    margin-top: 25px;
+}
+  
+.icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+  
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+  
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  
+
+  
+@media (max-width: 880px) {
+  
+    .footer-distributed{
+        font: bold 14px sans-serif;
+    }
+    
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer-distributed .footer-center i{
+        margin-left: 0;
+    }
+  
+}
+
+.boxes{
+    margin-bottom: 100px;
+}
+
+.boxes2{
+    margin-bottom: 350px;
+}
+
+.boxes3{
+    margin-bottom: 460px;
+}
+
+.footer-bg {
+    background: rgba(55,65,81,1) !important;
+}
